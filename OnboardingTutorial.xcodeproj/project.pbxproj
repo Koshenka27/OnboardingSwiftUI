@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B3773CC626B02289003885EA /* OnboardingTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3773CC526B02289003885EA /* OnboardingTutorialApp.swift */; };
-		B3773CC826B02289003885EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3773CC726B02289003885EA /* ContentView.swift */; };
+		B3773CC826B02289003885EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3773CC726B02289003885EA /* HomeView.swift */; };
 		B3773CCA26B0228B003885EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3773CC926B0228B003885EA /* Assets.xcassets */; };
 		B3773CCD26B0228B003885EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3773CCC26B0228B003885EA /* Preview Assets.xcassets */; };
+		B3773CD526B022E5003885EA /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3773CD426B022E5003885EA /* OnboardingContainerView.swift */; };
+		B3773CD726B022EF003885EA /* OnboardingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3773CD626B022EF003885EA /* OnboardingContentView.swift */; };
+		B3773CD926B023FE003885EA /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3773CD826B023FE003885EA /* Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3773CC226B02289003885EA /* OnboardingTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3773CC526B02289003885EA /* OnboardingTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTutorialApp.swift; sourceTree = "<group>"; };
-		B3773CC726B02289003885EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3773CC726B02289003885EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B3773CC926B0228B003885EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3773CCC26B0228B003885EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3773CCE26B0228B003885EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3773CD426B022E5003885EA /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		B3773CD626B022EF003885EA /* OnboardingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentView.swift; sourceTree = "<group>"; };
+		B3773CD826B023FE003885EA /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				B3773CC526B02289003885EA /* OnboardingTutorialApp.swift */,
-				B3773CC726B02289003885EA /* ContentView.swift */,
+				B3773CC726B02289003885EA /* HomeView.swift */,
+				B3773CD426B022E5003885EA /* OnboardingContainerView.swift */,
+				B3773CD626B022EF003885EA /* OnboardingContentView.swift */,
+				B3773CD826B023FE003885EA /* Feature.swift */,
 				B3773CC926B0228B003885EA /* Assets.xcassets */,
 				B3773CCE26B0228B003885EA /* Info.plist */,
 				B3773CCB26B0228B003885EA /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3773CC826B02289003885EA /* ContentView.swift in Sources */,
+				B3773CC826B02289003885EA /* HomeView.swift in Sources */,
 				B3773CC626B02289003885EA /* OnboardingTutorialApp.swift in Sources */,
+				B3773CD926B023FE003885EA /* Feature.swift in Sources */,
+				B3773CD526B022E5003885EA /* OnboardingContainerView.swift in Sources */,
+				B3773CD726B022EF003885EA /* OnboardingContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
